@@ -1,0 +1,389 @@
+// FOO
+digraph "Pratylenchus Key" {
+	graph [rankdir=LR]
+	001 [label="Key to Pratylenchidae
+an adapatation from:
+
+Pratylenchus (Nematoda:
+Pratylenchidae): Diagnosis, Biology,
+Pathpgenicity And Management
+
+Pablo Castillo et al" fillcolor=red style=filled]
+	001.1 [label="Labial region
+annuli" fillcolor=aqua style=filled]
+	001 -> 001.1
+	001.1 -> 002 [label=Two]
+	001.1 -> 028 [label=Three]
+	001.1 -> 065 [label=Four]
+	002 [label=Males fillcolor=aqua style=filled]
+	002 -> 003 [label=Absent]
+	002 -> 008 [label="Common
+(Spermatheca
+filled with sperm)"]
+	"P. angulatus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	003 [label=Stylet fillcolor=aqua style=filled]
+	003 -> "P. angulatus" [label="< 13 μm"]
+	003 -> 004 [label="> 13 μm"]
+	"P. acuticaudatus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	004 [label=Spermatheca fillcolor=aqua style=filled]
+	004 -> "P. acuticaudatus" [label="Absent or reduced"]
+	004 -> 005 [label="Well developed"]
+	"P. crassi" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	005 [label=Vulva fillcolor=aqua style=filled]
+	005 -> "P. crassi" [label="< 75%"]
+	005 -> 006 [label="&#8805; 75%"]
+	006 [label="Post-vulval
+uterine sac" fillcolor=aqua style=filled]
+	006 -> 007 [label="< 16 μm"]
+	"P. hippeastri" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	006 -> "P. hippeastri" [label="30-35 μm"]
+	"P. tenuis" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	007 [label="Female
+tail" fillcolor=aqua style=filled]
+	007 -> "P. tenuis" [label="Tip smooth"]
+	"P. estoniensis" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	007 -> "P. estoniensis" [label="Tip striated"]
+	"P. macrostylus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	008 [label=Stylet fillcolor=aqua style=filled]
+	008 -> "P. macrostylus" [label="> 20 μm"]
+	008 -> 009 [label="< 20 μm"]
+	009 [label=Stylet fillcolor=aqua style=filled]
+	009 -> 010 [label="18-20 μm"]
+	009 -> 011 [label="< 18 μm"]
+	"P. brachyurus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	010 [label=Spermatheca fillcolor=aqua style=filled]
+	010 -> "P. brachyurus" [label="Reduced,
+labial region offset
+ from body,
+with angular anterior margin"]
+	"P. brzeskii" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	010 -> "P. brzeskii" [label="Developed,
+rectangular"]
+	011 [label=Stylet fillcolor=aqua style=filled]
+	011 -> 012 [label="16-17.9 μm"]
+	011 -> 018 [label="< 16 μm"]
+	"P. neglectus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	012 [label=Spermatheca fillcolor=aqua style=filled]
+	012 -> "P. neglectus" [label="Reduced,
+second annulus of labial
+region wider than first"]
+	012 -> 013 [label=Developed]
+	013 [label=Spermatheca fillcolor=aqua style=filled]
+	013 -> 014 [label="Rounded to spherical"]
+	013 -> 015 [label="oval or rectangular"]
+	"P. flakkensis" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	"P. dunensis" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	014 [label="Post-vulval
+uterine sac " fillcolor=aqua style=filled]
+	014 -> "P. flakkensis" [label="< 20 μm"]
+	014 -> "P. dunensis" [label="25-30 μm"]
+	"P. yamagutii" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	015 [label="Post-vulval
+uterine sac " fillcolor=aqua style=filled]
+	015 -> "P. yamagutii" [label="< 16 μm"]
+	015 -> 016 [label="> 16 μm"]
+	"P. panamaensis" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	016 [label="Female
+tail" fillcolor=aqua style=filled]
+	016 -> "P. panamaensis" [label=Subcylindrical]
+	016 -> 017 [label=Conoid]
+	"P. loosi" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	017 [label="Pharyngeal overlap" fillcolor=aqua style=filled]
+	017 -> "P. loosi" [label="< 40 μm,
+ labial region rounded,
+spermathecarectangular,
+tail tapering gradually
+to smooth conical tip,
+ usually with narrowly rounded terminus,
+ males abundant"]
+	"P. okinawensis" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	017 -> "P. okinawensis" [label="> 50 μm"]
+	"P. hexincisus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	018 [label=Spermatheca fillcolor=aqua style=filled]
+	018 -> "P. hexincisus" [label="Reduced,
+lateral fields with six
+lines on most of body"]
+	018 -> 019 [label=Developed]
+	018 [label=Spermatheca fillcolor=aqua style=filled]
+	019 -> 020 [label="Rounded to 
+spherical"]
+	019 -> 024 [label=Oval]
+	"P. gibbicaudatus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	020 -> "P. gibbicaudatus" [label="Vulva position < 75%"]
+	020 [label=Vulva fillcolor=aqua style=filled]
+	020 -> 021 [label="> 75%"]
+	021 [label="Post-vulval
+uterine sac " fillcolor=aqua style=filled]
+	021 -> 022 [label="< 20 μm"]
+	"P. jaehni" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	021 -> "P. jaehni" [label="Post-vulval uterine sac > 20 μm"]
+	"P. silvaticus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	022 [label="Female
+tail " fillcolor=aqua style=filled]
+	022 -> "P. silvaticus" [label=Conoid]
+	022 -> 023 [label=Subcylindrical]
+	"P. alleni" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	023 [label="Female
+tail tip " fillcolor=aqua style=filled]
+	023 -> "P. alleni" [label=smooth]
+	"P. roseus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	023 -> "P. roseus" [label=Striated]
+	024 [label=Vulva fillcolor=aqua style=filled]
+	024 -> 025 [label="< 75%"]
+	024 -> 026 [label="> 75%"]
+	"P. artemisiae" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	025 [label="Female
+tail " fillcolor=aqua style=filled]
+	025 -> "P. artemisiae" [label=Subcylindrical]
+	"P. scribneri" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	025 -> "P. scribneri" [label="Conoid,
+labial region slightly
+offset from body,
+ stylet stout,
+with rounded knobs, 
+spermatheca oblong, 
+tail tapering slightly 
+with smooth terminus"]
+	"P. neobrachyurus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	026 [label="Post-vulval
+uterine sac " fillcolor=aqua style=filled]
+	026 -> "P. neobrachyurus" [label="< 16 μm"]
+	026 -> 027 [label="Post-vulval uterine sac > 16 μm"]
+	"P. coffeae" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	027 [label="Pharyngeal
+overlap " fillcolor=aqua style=filled]
+	027 -> "P. coffeae" [label="< 40 μm,
+ labial region slightly offset,
+ postvulval uterine sac 1.0-1.5 
+body diam. long with a terminal rudimentary ovary, 
+female tail tip truncate or hemispherical"]
+	"P. pseudocoffeae" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	027 -> "P. pseudocoffeae" [label="Pharyngeal overlap > 50 μm"]
+	028 [label=Males fillcolor=aqua style=filled]
+	028 -> 029 [label="Absent,
+spermatheca empty"]
+	028 -> 043 [label="Common,
+spermatheca filled with sperm"]
+	"P. microstylus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	029 [label=Stylet fillcolor=aqua style=filled]
+	029 -> "P. microstylus" [label="< 13 μm"]
+	029 -> 030 [label="> 13 μm"]
+	030 [label=Stylet fillcolor=aqua style=filled]
+	030 -> 031 [label="18-20 μm"]
+	030 -> 032 [label="< 18 μm"]
+	"P. japonicus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	031 [label="Post-vulva
+uterine sac " fillcolor=aqua style=filled]
+	031 -> "P. japonicus" [label="< 20 μm"]
+	"P. bolivianus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	031 -> "P. bolivianus" [label="> 20 μm"]
+	032 [label=Stylet fillcolor=aqua style=filled]
+	032 -> 033 [label="< 16 μm"]
+	032 -> 037 [label="> 16 μm"]
+	033 [label=Spermatheca fillcolor=aqua style=filled]
+	033 -> 034 [label="Reduced or
+ absent"]
+	"P. elamini" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	033 -> "P. elamini" [label=Oval]
+	"P. teres" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	034 [label=Vulva fillcolor=aqua style=filled]
+	034 -> "P. teres" [label="< 75%"]
+	034 -> 035 [label="> 75%"]
+	035 [label="Post-vulval
+uterine sac " fillcolor=aqua style=filled]
+	035 -> 036 [label="< 25 μm"]
+	"P. sensillatus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	035 -> "P. sensillatus" [label="> 25 μm"]
+	"P. cruciferus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	036 [label="Female
+tail tip" fillcolor=aqua style=filled]
+	036 -> "P. cruciferus" [label=Smooth]
+	"P. kumaoensis" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	036 -> "P. kumaoensis" [label=Striated]
+	037 [label=Spermatheca fillcolor=aqua style=filled]
+	037 -> 038 [label="Reduced or
+absent"]
+	037 -> 041 [label=Developed]
+	"P. curvicauda" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	038 [label=Vulva fillcolor=aqua style=filled]
+	038 -> "P. curvicauda" [label="< 75%"]
+	038 -> 039 [label="> 75%"]
+	"P. pinguicaudatus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	039 [label="Post-vulval
+uterine sac " fillcolor=aqua style=filled]
+	039 -> "P. pinguicaudatus" [label="< 16 μm"]
+	039 -> 040 [label="> 20 μm"]
+	"P. delattrei" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	040 [label="Female
+tail tip " fillcolor=aqua style=filled]
+	040 -> "P. delattrei" [label=smooth]
+	"P. subranjani" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	040 -> "P. subranjani" [label=Striated]
+	"P. yassini" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	041 [label=Vulva fillcolor=aqua style=filled]
+	041 -> "P. yassini" [label="< 75%"]
+	041 -> 042 [label="> 75%"]
+	"P. arlingtoni" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	042 [label="Post-vulval
+uterine sac " fillcolor=aqua style=filled]
+	042 -> "P. arlingtoni" [label="shorter
+than 20 μm"]
+	"P. andinus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	042 -> "P. andinus" [label="Post-vulval uterine 
+sac longer than 20 μm"]
+	"P. ekrami" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	043 [label=Stylet fillcolor=aqua style=filled]
+	043 -> "P. ekrami" [label="< 13 μm"]
+	043 -> 044 [label="> 13 μm"]
+	044 [label=Stylet fillcolor=aqua style=filled]
+	044 -> 045 [label="< 16 μm"]
+	044 -> 055 [label="> 16 μm"]
+	045 [label=Spermatheca fillcolor=aqua style=filled]
+	045 -> 046 [label="Rounded to
+spherical"]
+	045 -> 049 [label="Oval or
+rectangular"]
+	"P. bhattii" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	046 [label=Vulva fillcolor=aqua style=filled]
+	046 -> "P. bhattii" [label="< 75%"]
+	046 -> 047 [label="> 75%"]
+	"P. kralli" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	047 [label="Post-vulval
+uterine sac " fillcolor=aqua style=filled]
+	047 -> "P. kralli" [label="< 16 μm"]
+	047 -> 048 [label="> 16 μm"]
+	"P. mediterraneus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	048 [label="Female
+tail tip" fillcolor=aqua style=filled]
+	048 -> "P. mediterraneus" [label=Smooth]
+	"P. pseudofallax" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	048 -> "P. pseudofallax" [label=Striated]
+	049 [label=Spermatheca fillcolor=aqua style=filled]
+	049 -> 050 [label=Oval]
+	049 -> 053 [label=Rectangular]
+	"P. sudanensis" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	050 [label=Vulva fillcolor=aqua style=filled]
+	050 -> "P. sudanensis" [label="< 75%"]
+	050 -> 051 [label="> 75%"]
+	051 [label="Post-vulval
+uterine sac " fillcolor=aqua style=filled]
+	051 -> "P. vulnus" [label="> 30 μm,
+labial region almost
+continuous with body contour,
+pharynx overlapping intestine
+ in a long lobe spermatheca oblong,
+post-vulval uterine sac ca 2
+vulval body diam. long
+with rudimentary ovary, 
+tail tapering, 
+with narrowly rounded to subacute smooth tip"]
+	051 -> 052 [label="< 30 μm"]
+	052 [label="Female
+tail tip" fillcolor=aqua style=filled]
+	052 -> "P. unzenensis" [label=Smooth]
+	052 -> "P. pratensisobrinus" [label=Striated]
+	053 [label=Vulva fillcolor=aqua style=filled]
+	053 -> 054 [label="< 80%."]
+	"P. manaliensis" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	053 -> "P. manaliensis" [label="80-85%"]
+	"P. pratensis" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	054 [label="Female
+tail tip " fillcolor=aqua style=filled]
+	054 -> "P. pratensis" [label="Striated, 
+cuticle finely annulated, 
+oval to rectangular spermatheca, 
+post-vulval uterine sac 
+length similar to body diam.,
+tail annulated until terminus"]
+	054 -> "Female tail tip with a ventral projection" [label="P. ventroprojectus"]
+	055 [label=Spermatheca fillcolor=aqua style=filled]
+	055 -> 056 [label="Reduced or
+absent"]
+	055 -> 058 [label=Developed]
+	"P. zeae" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	056 [label=Vulva fillcolor=aqua style=filled]
+	056 -> "P. zeae" [label="< 76%,
+spermatheca round, 
+vulva at 68-76%, tail 
+conoid, terminus generally almost pointed, 
+narrowly rounded to subacute, unstriated"]
+	056 -> 057 [label="> 76%."]
+	"P. thornei" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	057 [label="Female
+tail tip" fillcolor=aqua style=filled]
+	057 -> "P. thornei" [label="Smooth, 
+labial region not offset from body, 
+outer margin of sclerotised labial 
+framework conspicuously
+extending ca two annuli 
+into body and 1 annulus into labial region, 
+lateral fields with four lines, 
+the outer ones straight or
+weakly crenate, 
+stylet medium size (17-19 μm long), 
+spermatheca difficult to see, 
+not containing spermatozoa, 
+males very rare"]
+	"P. crenatus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	057 -> "P. crenatus" [label=Striated]
+	058 [label=Spermatheca fillcolor=aqua style=filled]
+	058 -> 059 [label="Rounded to
+spherical"]
+	058 -> 062 [label=Oval]
+	059 [label="Post-vulval
+uterine sac" fillcolor=aqua style=filled]
+	059 -> "P. convallariae" [label="> 35 μm"]
+	059 -> 060 [label="25-35 μm"]
+	"P. penetrans" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	060 [label="Female
+tail tip" fillcolor=aqua style=filled]
+	060 -> "P. penetrans" [label="Smooth, 
+labial region slightly offset, low, 
+flat in front, 
+with rounded outer margins, 
+pharynx overlapping intestine
+in a lobe ca 1.5 body diam. long, 
+post-vulval uterine sac short,
+ undifferentiated and tail generally rounded, 
+tip smooth"]
+	060 -> 061 [label=Striated]
+	"P. pseudopratensis" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	061 [label=Spermatheca fillcolor=aqua style=filled]
+	061 -> "P. pseudopratensis" [label="Rectangular,
+female tail tip rounded to truncate,
+smooth"]
+	061 -> "P. fallax" [label="Spermatheca rounded, 
+female tail tip rounded, 
+smooth or slightly irregular contour"]
+	"P. morettoi" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	062 [label="Post-vulval
+uterine sac" fillcolor=aqua style=filled]
+	062 -> "P. morettoi" [label="> 35 μm"]
+	062 -> 063 [label="< 35 μm"]
+	063 [label="Female
+tail tip" fillcolor=aqua style=filled]
+	063 -> 064 [label=Smooth]
+	"P. kasari" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	063 -> "P. kasari" [label=Striated]
+	"P. subpenetrans" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	064 [label="Post-vulval
+uterine sac " fillcolor=aqua style=filled]
+	064 -> "P. subpenetrans" [label="< 20 μm"]
+	"P. mulchandi" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	064 -> "P. mulchandi" [label="> 30 μm"]
+	065 [label=Males fillcolor=aqua style=filled]
+	065 -> 066 [label="Absent,
+spermatheca empty"]
+	"P. goodeyi" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	065 -> "P. goodeyi" [label="Common, 
+spermatheca filled with sperm, 
+lateral fields with four inconspicuous lines, 
+the two outer bands partially areolated, 
+tail conoid, ventrally concave"]
+	"P. typicus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	066 [label="Post-vulval
+uterine sac" fillcolor=aqua style=filled]
+	066 -> "P. typicus" [label="> 30 μm"]
+	"P. wescolagricus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	066 -> "P. wescolagricus" [label="< 30 μm"]
+}
