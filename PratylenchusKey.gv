@@ -69,8 +69,10 @@ second annulus of labial
 region wider than first"]
 	012 -> 013 [label=Developed]
 	013 [label=Spermatheca fillcolor=aqua style=filled]
-	013 -> 014 [label="Rounded to spherical"]
-	013 -> 015 [label="oval or rectangular"]
+	013 -> 014 [label="Rounded
+to spherical"]
+	013 -> 015 [label="Oval
+or rectangular"]
 	"P. flakkensis" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
 	"P. dunensis" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
 	014 [label="Post-vulval
@@ -105,18 +107,19 @@ lateral fields with six
 lines on most of body"]
 	018 -> 019 [label=Developed]
 	018 [label=Spermatheca fillcolor=aqua style=filled]
+	019 [label=Spermatheca fillcolor=aqua style=filled]
 	019 -> 020 [label="Rounded to 
 spherical"]
 	019 -> 024 [label=Oval]
 	"P. gibbicaudatus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
-	020 -> "P. gibbicaudatus" [label="Vulva position < 75%"]
+	020 -> "P. gibbicaudatus" [label="< 75%"]
 	020 [label=Vulva fillcolor=aqua style=filled]
 	020 -> 021 [label="> 75%"]
 	021 [label="Post-vulval
 uterine sac " fillcolor=aqua style=filled]
 	021 -> 022 [label="< 20 μm"]
 	"P. jaehni" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
-	021 -> "P. jaehni" [label="Post-vulval uterine sac > 20 μm"]
+	021 -> "P. jaehni" [label="> 20 μm"]
 	"P. silvaticus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
 	022 [label="Female
 tail " fillcolor=aqua style=filled]
@@ -148,7 +151,7 @@ with smooth terminus"]
 	026 [label="Post-vulval
 uterine sac " fillcolor=aqua style=filled]
 	026 -> "P. neobrachyurus" [label="< 16 μm"]
-	026 -> 027 [label="Post-vulval uterine sac > 16 μm"]
+	026 -> 027 [label="> 16 μm"]
 	"P. coffeae" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
 	027 [label="Pharyngeal
 overlap " fillcolor=aqua style=filled]
@@ -158,7 +161,7 @@ overlap " fillcolor=aqua style=filled]
 body diam. long with a terminal rudimentary ovary, 
 female tail tip truncate or hemispherical"]
 	"P. pseudocoffeae" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
-	027 -> "P. pseudocoffeae" [label="Pharyngeal overlap > 50 μm"]
+	027 -> "P. pseudocoffeae" [label="> 50 μm"]
 	028 [label=Males fillcolor=aqua style=filled]
 	028 -> 029 [label="Absent,
 spermatheca empty"]
@@ -267,6 +270,7 @@ tail tip" fillcolor=aqua style=filled]
 	050 -> 051 [label="> 75%"]
 	051 [label="Post-vulval
 uterine sac " fillcolor=aqua style=filled]
+	"P. vulnus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
 	051 -> "P. vulnus" [label="> 30 μm,
 labial region almost
 continuous with body contour,
@@ -332,6 +336,7 @@ spherical"]
 	058 -> 062 [label=Oval]
 	059 [label="Post-vulval
 uterine sac" fillcolor=aqua style=filled]
+	"P. convallariae" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
 	059 -> "P. convallariae" [label="> 35 μm"]
 	059 -> 060 [label="25-35 μm"]
 	"P. penetrans" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
@@ -352,6 +357,7 @@ tip smooth"]
 	061 -> "P. pseudopratensis" [label="Rectangular,
 female tail tip rounded to truncate,
 smooth"]
+	"P. fallax" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
 	061 -> "P. fallax" [label="Spermatheca rounded, 
 female tail tip rounded, 
 smooth or slightly irregular contour"]
